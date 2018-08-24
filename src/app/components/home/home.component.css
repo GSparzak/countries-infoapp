@@ -1,0 +1,83 @@
+.home {
+  position: relative;
+  padding-top: 20vh;
+}
+
+.home p {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home .search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  width: 1200px;
+}
+
+.home .search form {
+    text-align: center;
+}
+
+.home form input {
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 40%;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+.home form input::placeholder {
+  color: #bbb;
+}
+
+.home form input:hover {
+  box-shadow: 0 0 10px #fff;
+}
+
+.home form input:focus,
+.home form input:active {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px #fff;
+  /* outline-offset: 5px;
+  -moz-outline-radius: 5px;
+  outline: 2px dashed #ccc; */
+}
+
+.home form button {
+  padding: 14px 20px 12px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.home form button:hover,
+.home form button:focus {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.home .continents {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .continents a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.home .continents a:hover {
+  text-decoration: underline;
+}

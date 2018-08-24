@@ -1,0 +1,15 @@
+<div class="fullscreen">
+  <div class="wrapper">
+      <h1>Countries of the World</h1>
+      <div class="listFlex">
+        <div>
+          <ul>
+            <li class="country" *ngFor=" let country of countriesList"><a (click)="showInfo(country.alpha2Code)">{{ country.name }}</a></li>
+          </ul>
+        </div>
+        <div *ngIf="countryToShow">
+          <app-info [countryCode]="countryToShow"></app-info>
+        </div>
+      </div>
+  </div>
+</div>

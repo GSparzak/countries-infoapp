@@ -1,0 +1,41 @@
+h1 {
+  margin-bottom: 80px;
+}
+
+.listFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: calc(100% - 136px);
+}
+
+.listFlex div:first-of-type {
+  width: 50%;
+  flex: 0 0 50%;
+  padding-left: 10vw;
+  overflow-y: auto;
+}
+
+.listFlex div:last-of-type {
+  width: calc(40% - 20px);
+  height: 100%;
+}
+
+ul {
+  columns: 3;
+  column-gap: 40px;
+  /* column-rule: 1px solid #fff; */
+}
+
+ul li {
+  text-align: center;
+  list-style-type: none;
+}
+
+ul li a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+}

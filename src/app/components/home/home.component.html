@@ -1,0 +1,19 @@
+<div class="fullscreen">
+  <div class="wrapper home">
+    <h1>Countries of the World</h1>
+    <p>All the most important info you might need.</p>
+    <div class="search">
+      <form class="" [formGroup]="findCountry" (ngSubmit)="submit()">
+          <input type="text" formControlName="country" value="" placeholder="Type in name of a country">
+          <button type="submit" name="button">SEARCH</button>
+      </form>
+      <div class="continents">
+        <a (click)="searchByContinents('africa')">AFRICA</a>
+        <a (click)="searchByContinents('americas')">AMERICAS</a>
+        <a (click)="searchByContinents('asia')">ASIA</a>
+        <a (click)="searchByContinents('europe')">EUROPE</a>
+        <a (click)="searchByContinents('oceania')">OCEANIA</a>
+      </div>
+    </div>
+  </div>
+</div>
