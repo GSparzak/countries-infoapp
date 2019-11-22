@@ -1,0 +1,9 @@
+<div #cover class="site-cover">
+  <i #coverTop class="site-cover__bg site-cover__bg--top" style="background: rgba(255,255,255,1);"></i>
+  <i #coverMiddle class="site-cover__bg site-cover__bg--middle" style="background: rgba(255,255,255,1);"></i>
+  <i #coverBottom class="site-cover__bg site-cover__bg--bottom" style="background: rgba(255,255,255,1);"></i>
+</div>
+
+<div #uncover class="site-uncover">
+  <i #uncoverItems *ngFor="let i of columns" class="site-uncover__bg"></i>
+</div>

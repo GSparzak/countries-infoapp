@@ -20,7 +20,7 @@ export const fadeAnimation = trigger ('fadeAnimation', [
       animate('.3s', style({ 'opacity': 1}))
     ]),
 
-    query(':enter .country', stagger(50, [
+    query(':enter .country', stagger(20, [
       animate('.1s', style({'opacity': 1, 'transform': 'translateY(0)'}))
     ]), {optional: true})
   ])

@@ -1,8 +1,10 @@
 .countryInfo {
   border-left: 2px solid #ffffff;
   padding-left: 50px;
+  width: 500px;
   max-width: 500px;
   height: 100%;
+  overflow: hidden;
 }
 
 h2 {
